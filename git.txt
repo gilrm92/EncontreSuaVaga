@@ -1,0 +1,5 @@
+http://www.princiweb.com.br/blog/programacao/google-apis/google-maps-api-v3-criando-um-mapa-personalizado.html
+
+http://www.profissionaisti.com.br/2009/12/marcador-customizado-no-google-maps/
+
+http://websocialdev.com/2015/01/21/criando-um-mapa-customizado-com-api-google-maps/
