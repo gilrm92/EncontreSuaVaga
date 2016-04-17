@@ -47,7 +47,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -63,7 +63,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -79,7 +79,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -95,7 +95,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -111,7 +111,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -127,7 +127,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -143,7 +143,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -159,7 +159,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -175,7 +175,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -191,7 +191,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -207,7 +207,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -223,7 +223,7 @@
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" />
             <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
-            <a href="#" data-target="#modalOverviewVaga" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalOverviewVaga').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
         </div>
     </div>
 
@@ -232,14 +232,38 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Titulo modal</h4>
+                    <h4 class="modal-title">Estacionamento MultiPark</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Coisas do modal</p>
+                    <div class="grid_480 f-left margin-top-60 margin-bottom-60">
+                        <center><img class="card-img-center" src="img/estacionamento.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <div class="card-block center-block">
+                            <h5 class="card-text">R. Camerino, 81 - Centro, Rio de Janeiro - RJ, 20080-011</h5>
+                            <h5>Tel: (11) 3177-5556</h5>
+                            <h5 style="color: green;">Vagas: 100</h5>
+
+                            <img class="card-img-center" src="img/car.png" alt="Classificação" />
+                            <img class="card-img-center" src="img/car.png" alt="Classificação" />
+                            <img class="card-img-center" src="img/car.png" alt="Classificação" />
+                            <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
+
+                            <h4><b>Horarios de Funcionamento</b></h4>
+                            <h5>Segunda a Sexta: 6:00 até 18:00</h5>
+                            <h5>Sábados, Domingos e Feriados: 08:00 até às 17:00</h5>
+
+                            <h4><b>Tabela de preços</b></h4>
+                            <h5>1h: R$ 9,00</h5>
+                            <h5>Hora adicional: R$ 1,00</h5>
+
+                            <h4><b>Serviços</b></h4>
+                            <h5>Manobrista: R$ 7,00</h5>
+                            <h5>Lava-Rápido: R$ 15,00</h5>
+
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
                 </div>
             </div>
             <!-- /.modal-content -->
