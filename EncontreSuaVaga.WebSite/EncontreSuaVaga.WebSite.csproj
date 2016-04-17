@@ -61,6 +61,7 @@
     <Content Include="Default.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="img\car.png" />
+    <Content Include="img\estacionamento.jpg" />
     <Content Include="img\maker.png" />
     <Content Include="Scripts\css\bg.png" />
     <Content Include="Scripts\css\estilo.css" />
