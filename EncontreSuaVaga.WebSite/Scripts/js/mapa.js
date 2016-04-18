@@ -47,7 +47,7 @@ function getVagasDisponiveis() {
     var listOfVagas = [
         { lat: -22.910464, lon: -43.185208, descricaoVaga: htmlCard1 },
         { lat: -22.908468, lon: -43.186206, descricaoVaga: htmlCard2 },
-        { lat: -22.907569, lon: -43.183062, descricaoVaga: htmlCard3 },
+        { lat: -22.907730, lon: -43.183942, descricaoVaga: htmlCard3 },
         { lat: -22.909125, lon: -43.180268, descricaoVaga: htmlCard4 },
         { lat: -22.910321, lon: -43.182961, descricaoVaga: htmlCard5 },
         { lat: -22.901590, lon: -43.178978, descricaoVaga: htmlCard6 },
