@@ -1,84 +1,71 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Encontre sua vaga</title>
 
+
+    <script type="text/javascript" src="Scripts/js/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+    <script type="text/javascript" src="Scripts/js/jquery-ui.custom.min.js"></script>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:600" type="text/css" rel="stylesheet" />
+    <link href="Scripts/css/estilo.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="Scripts/js/mapa.js"></script>
+
 
 </head>
+
 <body>
-    <form>
-        <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-            <h2 class="card-title" style="text-align:center">Estacionamento MultiPark</h2>
-            <img class="card-img-center" src="img/estacionamento.jpg" alt="Card image cap">
-            <div class="card-block center-block">
-                <h5 class="card-text">R. Camerino, 81 - Centro, Rio de Janeiro - RJ, 20080-011</h5>
-                <h5>Site: multipark.com.br</h5>
-                <h5>Tel: (11) 3177-5556</h5>
-                <h5 style="color: green;">Vagas: 100</h5>
+    <div id="modalOverviewVaga" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Estacionamento MultiPark</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_480 f-left margin-top-60 margin-bottom-60">
+                        <center><img class="card-img-center" src="img/estacionamento.jpg" alt="Card image cap" width="30%" height="20%" /></center>
+                        <div class="card-block center-block">
+                            <h5 class="card-text">R. Camerino, 81 - Centro, Rio de Janeiro - RJ, 20080-011</h5>
+                            <h5>Tel: (11) 3177-5556</h5>
+                            <h5 style="color: green;">Vagas: 100</h5>
 
-                <img class="card-img-center" src="img/car.png" alt="Classificação" />
-                <img class="card-img-center" src="img/car.png" alt="Classificação" />
-                <img class="card-img-center" src="img/car.png" alt="Classificação" />
-                <img class="card-img-center" src="img/car.png" alt="Classificação" /><br />
+                            <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
+                            <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
+                            <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
+                            <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
+                            <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
 
-                <h4>Horarios de Funcionamento:</h4>
-                <h5>Segunda a Sexta: 6:00 até 18:00</h5>
-                <h5>Sábados, Domingos e Feriados: 08:00 até às 17:00</h5>
+                            <h4><b>Horarios de Funcionamento</b></h4>
+                            <h5>Segunda a Sexta: 6:00 até 18:00</h5>
+                            <h5>Sábados, Domingos e Feriados: 08:00 até às 17:00</h5>
 
-                <h4>Serviços</h4>
-                <h5>Manobrista: R$ 7,00</h5>
-                <h5>Lava-Rápido: R$ 15,00</h5>
+                            <h4><b>Tabela de preços</b></h4>
+                            <h5>1h: R$ 9,00</h5>
+                            <h5>Hora adicional: R$ 1,00</h5>
 
+                            <h4><b>Serviços</b></h4>
+                            <h5>Manobrista: R$ 7,00</h5>
+                            <h5>Lava-Rápido: R$ 15,00</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                </div>
             </div>
+            <!-- /.modal-content -->
         </div>
-    </form>
-    <form>
-        <div class="grid_480 f-right margin-top-60 margin-bottom-60">
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@TwBootstrap</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <fieldset class="form-group">
-                <label for="exampleTextarea">Example textarea</label>
-                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-            </fieldset>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-    </form>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 </body>
-</html>
+</!--html>
