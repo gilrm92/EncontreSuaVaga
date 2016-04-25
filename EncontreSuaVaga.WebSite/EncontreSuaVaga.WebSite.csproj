@@ -59,7 +59,6 @@
   <ItemGroup>
     <Content Include="asmx\Vagas.asmx" />
     <Content Include="Default.aspx" />
-    <Content Include="HtmlPage1.html" />
     <Content Include="img\Car_1.png" />
     <Content Include="img\Car_2.png" />
     <Content Include="img\estaci1.jpg" />

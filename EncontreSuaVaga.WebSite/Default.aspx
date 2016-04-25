@@ -48,6 +48,27 @@
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_1').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -60,7 +81,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci1.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci1.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. dos Inválidos, 71 - Centro Rio de Janeiro - RJ 20231-046</h5>
                             <h5 style="line-height: 3px">Tel: (21) 3177-5556</h5>
@@ -85,6 +106,12 @@
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 7,00</h5>
                             <h5>Lava-Rápido: R$ 15,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -112,6 +139,27 @@
             <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_2').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -124,7 +172,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci2.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci2.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">Praça da República, 7 - Centro Rio de Janeiro - RJ</h5>
                             <h5 style="line-height: 3px">Tel: (21) 2231-2509</h5>
@@ -148,6 +196,12 @@
 
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 5,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -175,6 +229,27 @@
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_3').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -187,7 +262,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci3.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci3.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. Visc. do Rio Branco, 10 - Centro Rio de Janeiro - RJ 20060-080</h5>
                             <h5 style="line-height: 3px">Tel: (21) 2664-1812</h5>
@@ -211,6 +286,12 @@
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 10,00</h5>
                             <h5>Lava-Rápido: R$ 20,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -238,6 +319,27 @@
             <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_4').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -250,7 +352,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci4.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci4.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">Av. República do Paraguai, 173 - Centro Rio de Janeiro - RJ 20031-180</h5>
                             <h5 style="line-height: 3px">Tel: (21) 3445-3100</h5>
@@ -274,6 +376,12 @@
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 15,00</h5>
                             <h5>Lava-Rápido: R$ 15,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -301,6 +409,27 @@
             <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_2.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_5').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -313,7 +442,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci5.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci5.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. Prof. Mário Vasconcelos, 297 - Pechincha, Rio de Janeiro - RJ, 20230-070</h5>
                             <h5 style="line-height: 3px">Tel: (21) 2263-7686</h5>
@@ -334,6 +463,12 @@
                             <h5>3h: R$ 36,00</h5>
                             <h5>4h: R$ 47,00</h5>
                             <h5>Hora adicional: R$ 7,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -361,6 +496,27 @@
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_6').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -373,7 +529,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci6.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci6.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">Av. Pres. Vargas, 287 - Centro Rio de Janeiro - RJ 20040-010</h5>
                             <h5 style="line-height: 3px">Tel: (21) 2413-5120</h5>
@@ -393,6 +549,12 @@
                             <h5>2h: R$ 27,00</h5>
                             <h5>3h: R$ 31,00</h5>
                             <h5>Hora adicional: R$ 10,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -420,6 +582,27 @@
             <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_7').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -432,7 +615,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci7.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci7.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. Sete de Setembro, 40 - Centro Rio de Janeiro - RJ</h5>
                             <h5 style="line-height: 3px">Tel: (21) 3178-2048</h5>
@@ -457,6 +640,12 @@
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 10,00</h5>
                             <h5>Lava-Rápido: R$ 15,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -484,6 +673,27 @@
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_8').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -496,7 +706,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci8.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci8.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">Av. Pres. Antônio Carlos, 1746 - Centro Rio de Janeiro - RJ</h5>
                             <h5 style="line-height: 3px">Tel: (21) 3974-3532</h5>
@@ -520,6 +730,12 @@
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 7,00</h5>
                             <h5>Lava-Rápido: R$ 15,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -547,6 +763,27 @@
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_9').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -559,7 +796,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci9.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci9.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. Uruguaiana, 138 - Centro Rio de Janeiro - RJ 20050-093</h5>
                             <h5 style="line-height: 3px">Tel: (21) 3445-3100</h5>
@@ -582,6 +819,12 @@
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 5,00</h5>
                             <h5>Lava-Rápido: R$ 15,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -609,6 +852,27 @@
             <img class="card-img-center" src="img/Car_2.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_2.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_10').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -621,7 +885,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci10.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci10.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. da Alfândega, 214 - Centro Rio de Janeiro - RJ 20070-002</h5>
                             <h5 style="line-height: 3px">Tel: (21) 2761-4063</h5>
@@ -647,6 +911,12 @@
                             <h4><b>Serviços</b></h4>
                             <h5>Manobrista: R$ 5,00</h5>
                             <h5>Lava-Rápido: R$ 11,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -674,6 +944,27 @@
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_11').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -686,7 +977,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci12.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci12.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. México, 81 - Centro Rio de Janeiro - RJ 20031-144</h5>
                             <h5 style="line-height: 3px">Tel: (21) 98802-4722</h5>
@@ -710,6 +1001,12 @@
 
                             <h4><b>Serviços</b></h4>
                             <h5>Lava-Rápido: R$ 17,00</h5>
+
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
 
                         </div>
                     </div>
@@ -737,6 +1034,28 @@
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" />
             <img class="card-img-center" src="img/Car_1.png" alt="Classificação" /><br />
             <a href="#" onclick="$('#modalOverviewVaga_12').modal('toggle');" class="btn btn-primary">Mais detalhes</a>
+            <a href="#" onclick="$('#modalLegendCrimes').modal('toggle');" class="btn btn-primary">Legenda</a>
+
+        </div>
+    </div>
+
+    <div id="modalLegendCrimes" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Legenda</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="grid_200 f-left">
+                        <h5 style="color: green;">Vagas em verde: Disponíveis atualmente</h5>
+                        <h5>Vagas em preto: Total de vagas</h5>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -749,7 +1068,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="grid_480 f-left margin-top-60 margin-bottom-60">
-                        <center><img class="card-img-center" src="img/estaci14.jpg" alt="Card image cap" width="30%" height="20%"></center>
+                        <center><img class="card-img-center" src="img/estaci14.jpg" alt="Card image cap" width="50%" height="20%"></center>
                         <div class="card-block center-block">
                             <h5 class="card-text">R. Santa Luzia, 615 - Centro Rio de Janeiro - RJ 20030-041</h5>
                             <h5 style="line-height: 3px">Tel: (21) 2274-3264</h5>
@@ -771,12 +1090,19 @@
                             <h5>5h: R$ 40,00</h5>
                             <h5>Hora adicional: R$ 7,50</h5>
 
+                            <h4>Comentarios</h4>
+                            <input class="form-control" type="text" readonly>
+
+                            <textarea class="form-control" rows="3" placeholder="Deixe seu comentario"></textarea>
+                            <button type="submit" class="btn btn-default">Enviar</button>
+
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Voltar para o mapa</button>
                 </div>
+
             </div>
             <!-- /.modal-content -->
         </div>

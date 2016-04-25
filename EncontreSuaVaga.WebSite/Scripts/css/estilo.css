@@ -47,7 +47,7 @@ h1 {
 	color: #f0f0f0; 
 	cursor: pointer; 
 	display: block; 
-	height: 32px; 
+	height: 37px; 
 	float: left; 
 	font: 15px 'Open Sans',Arial;
 	padding: 7px 13px;
@@ -60,7 +60,7 @@ h1 {
 	display: block;
 	float: left;
 	font: 15px 'Open Sans',Arial; 
-	height: 32px;
+	height: 37px;
 	padding: 9px;
 	width: 475px; 
 }
@@ -70,7 +70,7 @@ h1 {
 	border-radius: 0 6px 6px 0;
     color: #FFF;
     cursor: pointer;
-    height: 34px;
+    height: 37px;
     font: 15px 'Open Sans',Arial;
     padding: 2px 13px 6px;
     width: 150px;

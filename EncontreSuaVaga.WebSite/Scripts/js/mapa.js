@@ -2,6 +2,8 @@ var geocoder;
 var map;
 var marker;
 var vagas;
+var idInfoBoxAberto;
+var infoBox = [];
 
 
 function initialize(lat, lon) {
@@ -82,6 +84,15 @@ function setPosition(lat, lon, nomeVaga) {
     google.maps.event.addListener(markerPosition, 'click', function () {
         infowindow.open(map, markerPosition);
     });
+}
+
+function abrirInfoBox(id, marker) {
+    if (typeof (idInfoBoxAberto) == 'number' && typeof (infoBox[idInfoBoxAberto]) == 'object') {
+        infoBox[idInfoBoxAberto].close();
+    }
+
+    infoBox[id].open(map, marker);
+    idInfoBoxAberto = id;
 }
 
 function carregarNoMapa(endereco) {
